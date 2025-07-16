@@ -1,0 +1,19 @@
+# Dépendances pour Reconnaissance Vocale
+# Smart Board Application
+
+# Vision par ordinateur
+opencv-python==4.9.0.80
+opencv-contrib-python==4.9.0.80
+
+# Traitement d'images et calcul scientifique
+numpy==1.24.3
+pillow==10.0.0
+
+# Interface utilisateur
+tkinter
+
+# Gestion des fichiers multimédia
+imageio==2.31.1
+
+# Utilitaires
+requests==2.31.0

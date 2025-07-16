@@ -1,0 +1,22 @@
+{
+  "environments": [
+    {
+      "name": "development",
+      "settings": {
+        "debug": true,
+        "logging_level": "verbose",
+        "update_check": false
+      }
+    },
+    {
+      "name": "production",
+      "settings": {
+        "debug": false,
+        "logging_level": "error",
+        "update_check": true
+      }
+    }
+  ],
+  "default_environment": "production"
+}
+

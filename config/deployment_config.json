@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "deployment_settings": {
+    "auto_detect_python": true,
+    "python_versions": ["3.8", "3.9", "3.10", "3.11", "3.12"],
+    "fallback_python_path": "python",
+    "virtual_env_support": true,
+    "admin_required": true,
+    "multi_user_support": true
+  },
+  "path_configurations": {
+    "base_app_path": "%USERPROFILE%\\smart-board-app",
+    "python_env_path": "%USERPROFILE%\\smart-board-app\\smartboard_env310",
+    "logs_path": "%USERPROFILE%\\smart-board-app\\logs",
+    "temp_path": "%TEMP%\\smart-board-temp"
+  },
+  "system_requirements": {
+    "min_ram_gb": 4,
+    "min_storage_gb": 2,
+    "camera_required": true,
+    "microphone_required": true,
+    "gpu_acceleration": "optional"
+  },
+  "network_settings": {
+    "allow_updates": true,
+    "check_dependencies": true,
+    "proxy_support": true,
+    "offline_mode": false
+  },
+  "security_settings": {
+    "require_admin": true,
+    "sandbox_mode": false,
+    "firewall_rules": "auto_configure",
+    "antivirus_exclusions": [
+      "%USERPROFILE%\\smart-board-app\\smartboard_env310",
+      "%USERPROFILE%\\smart-board-app\\*.exe"
+    ]
+  }
+}
